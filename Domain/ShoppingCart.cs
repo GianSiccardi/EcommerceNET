@@ -15,5 +15,7 @@ namespace Domain
         public virtual ICollection<ShoppingCartItem>? ShoppingCartItems { get; set; }
 
 
+
+
     }
 }

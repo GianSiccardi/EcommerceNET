@@ -25,5 +25,7 @@ namespace Domain
         public Guid? ShoppingCartMasterId { get; set; }
 
         public int ShoppingCartId { get; set; }
+
+        public virtual ShoppingCart? ShoppingCart { get; set; }
     }
 }

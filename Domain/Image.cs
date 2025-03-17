@@ -15,7 +15,12 @@ namespace Domain
 
         public int ProductId { get; set; }
 
+        public virtual Product? Product { get; set; }
+
+
         [Column(TypeName = "NVARCHAR(100)")]
         public string?  ProductCode { get; set; }
+
+
     }
 }

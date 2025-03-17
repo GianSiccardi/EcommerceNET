@@ -28,5 +28,14 @@ namespace Domain
         public ProductStatus Status { get; set; } = ProductStatus.Activo;
 
         public int CategoryId { get; set; }
+
+        public  Category? Category { get; set; }
+
+
+        public virtual ICollection<Review>? reviews { get; set; }
+
+        public virtual ICollection<Image>? images { get; set; }
+
     }
+
 }

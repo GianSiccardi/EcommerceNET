@@ -21,6 +21,8 @@ namespace Domain
         public  string? Comentario { get; set; }
        
         public int ProductId { get; set; }
-    
+        
+        public virtual Product? product { get; set; }
+
     }
 }
